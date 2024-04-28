@@ -1,0 +1,8 @@
+body{background-color: rgb(20, 188, 255);}
+
+h1{ color: aliceblue; text-align: center;padding-top: 80px; font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 1px 1px 10px black;}
+
+section{background-color: aliceblue; padding: 20px; max-width: 650px; margin: auto; border-radius: 15px; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.623);}
+
+input{margin-top: 5px; }
+input#fim{margin-left: 11px;}

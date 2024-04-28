@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>verificador de numero</h1>
+    <input type="number" name="n1" id="n1">
+    <input type="number" name="n2" id="n2">
+    <input type="button" value="botao" onclick="somar()">
+    <span id="resultado"></span> <br>
+    <div id="condição"></div>
+    <script>
+        function somar(){
+            var numero1 = document.getElementById('n1')
+            var numero2 = document.getElementById('n2')
+            var conversor1 = Number(numero1.value)
+            var conversor2 = Number(numero2.value)
+            var soma = conversor1 + conversor2
+            var res = document.getElementById('resultado')
+            res.innerHTML = soma
+            var condiçao = document.getElementById('condição')
+            if (soma > 10){
+                condiçao.innerHTML = `seu res foi ${soma} e passou de 10`}
+            else{ condiçao.innerHTML = `seu res foi ${soma} e esta no padrao`}
+        }
+    </script>
+</body>
+</html>
